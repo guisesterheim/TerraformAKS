@@ -14,7 +14,7 @@ Create an Azure user to run all your Terraform scripts. Find more information on
 
 ### Step 2: 
 
-<code>terraform init \\<br/>
+`terraform init \\<br/>
     -backend-config "container_name=\<your folder inside Azure Blob Storage\>" \\<br>
     -backend-config "storage_account_name=\<your Azure Storage Name\>" \\ \s\s
     -backend-config "key=\<file name to be stored\>" \\\s\s
@@ -22,7 +22,7 @@ Create an Azure user to run all your Terraform scripts. Find more information on
     -backend-config "client_id=\<your username\>" \
     -backend-config "client_secret=\<your password\>" \
     -backend-config "tenant_id=\<tenant id\>" \
-    -backend-config "resource_group_name=\<resource group name to find your Blob Storage\>"</code>
+    -backend-config "resource_group_name=\<resource group name to find your Blob Storage\>"`
 
 ### Step 3:
 
