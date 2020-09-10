@@ -56,3 +56,5 @@ Apply Kubernetes configurations:
 ### Step 7:
 
 <code>kubectl get ingress --watch</code>
+
+Then wait for Kubernetes to assign a public IP address, grab it and have fun!
